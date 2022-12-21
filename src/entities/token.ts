@@ -71,5 +71,14 @@ export const WETH = {
     'WCRO',
     'Wrapped CRO'
   ),
-  [ChainId.CASSINI]: new Token(ChainId.CASSINI, '0xF495a0Cf46281C36Cd5100E22009B4D5D28B12df', 18, 'WCRO', 'Wrapped CRO')
+  [ChainId.CASSINI]: new Token(ChainId.CASSINI, '0xF495a0Cf46281C36Cd5100E22009B4D5D28B12df', 18, 'WCRO', 'Wrapped CRO'),
+
+  // Added the WCRO Token for the Mumbai chain ID
+  [ChainId.MUMBAI]: new Token(
+    ChainId.MUMBAI,
+    '0x1BF92e2C7b6326C6194CE08e77160C88e7B9D1d6',
+    18,
+    'WCRO',
+    'Wrapped CRO'
+  ),
 }
